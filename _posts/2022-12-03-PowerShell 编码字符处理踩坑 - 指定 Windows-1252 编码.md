@@ -2,11 +2,12 @@
 layout: post
 title:  "PowerShell 编码/字符处理踩坑 - 指定 Windows-1252 编码"
 date:   2022-12-03 12:47:00 +0800
-categories: ch
-tag: powershell
+categories: [computing]
+tag: [powershell,chinese]
+comments: true
 ---
 
-## 摘要
+## 要点摘要
 
 PowerShell 默认 ASCII 编码方案为 Ascii (7-bit) character set. 如需 ASCII 扩展方案如 Windows-1252, 我们需要使用 
 
@@ -86,5 +87,4 @@ CodePage          : 20127
 
 ### 存储
 
-另一方面, 存储时也应指定 encoding 为能包含对应字符的编码方案. 例如, `Export-Csv -Encoding UTF8`
-
+另一方面, 存储时也应指定 encoding 为能包含对应字符的编码方案. 例如, `Export-Csv -Encoding UTF8`.

@@ -43,7 +43,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Yang Guang
-  email: example@domain.com             # change to your email address
+  email: spikeyang.anu@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/y-guang       # change to your github homepage
@@ -90,14 +90,14 @@ avatar: assets/img/avatar/yang-guang.jpg
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: utterances # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
+    repo: y-guang/y-guang.github.io # <gh-username>/<repo>
+    issue_term: title # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo:              # <gh-username>/<repo>
